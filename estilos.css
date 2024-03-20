@@ -1,0 +1,19 @@
+html{ font-size: 24px;}/*especifica la dimensión de la letra del padre.*/
+h1{ font-size: 16px;}/*especifica la dimensión de la letra.*/
+h2{ font-size: 1rem;}/*especifica la dimensión de la letra.*/
+h3{font-size: 1.75rem;}/*especifica la dimensión de la letra.*/
+h4{font-size: 1.5rem;}/*especifica la dimensión de la letra.*/
+h5{font-size: 1.25rem;}/*especifica la dimensión de la letra.*/
+h6{font-size: 1.05rem;}/*especifica la dimensión de la letra.*/
+.contenedor /*contiene ciertas especificaciones el cual es el padre*/{
+    width: 70%; /*establece el ancho de un elemento.*/
+    height: 400px; /*especifica la altura de un elemento.*/
+    background-color: aqua; /* define el color de fondo de un elemento*/
+    margin: 30px auto; /*establece el margen para los cuatro lados.*/
+}
+.hijo /*contiene ciertas especificaciones el cual es el hijo*/{
+    width: 70vw; /*establece el ancho de un elemento.*/
+    height: 50vw; /*especifica la altura de un elemento.*/
+    background-color: blueviolet; /* define el color de fondo de un elemento*/
+    margin:30px auto; /*establece el margen para los cuatro lados.*/
+}
